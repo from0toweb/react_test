@@ -1,0 +1,42 @@
+* {
+  box-sizing: border-box;
+  color: #fff;
+}
+body,
+h1,
+h2,
+h3,
+p {
+  margin: 0;
+  padding: 0;
+}
+.section {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  width: 100%;
+  height: 100vh;
+  background: #0f0449 url(../img/shapes.svg) no-repeat center center/80%;
+}
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  max-width: 1176px;
+  width: 100%;
+}
+
+.description-block {
+  width: 36%;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  margin-top: 70px;
+}
+
+.slides-block {
+  position: relative;
+  width: 50%;
+  height: 480px;
+}
