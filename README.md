@@ -1,6 +1,6 @@
 # React Test
 
 To start <br/>
-`npm i`
+`npm i`<br/>
 `npm start`
 
